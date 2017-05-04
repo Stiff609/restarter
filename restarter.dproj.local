@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.226,=C:\Users\Stiff\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.759,C:\MyDelphi\Запуск внешней прграммы\Unit1.pas=C:\Users\Stiff\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.319,C:\MyDelphi\Запуск внешней прграммы\Project1.dproj=C:\Users\Stiff\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.360,D:\Demidov\Programing\MyDelphi\Запуск внешней прграммы\restarter.dproj=D:\Demidov\Programing\MyDelphi\Запуск внешней прграммы\Project1.dproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.759,C:\MyDelphi\Запуск внешней прграммы\Unit1.fmx=C:\Users\Stiff\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.632,=C:\Users\Stiff\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5"/>
+	</ActiveMobileDevice>
+</BorlandProject>

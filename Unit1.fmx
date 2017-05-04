@@ -1,0 +1,151 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  BorderStyle = Single
+  Caption = #1055#1077#1088#1077#1079#1072#1087#1091#1089#1082#1072#1090#1086#1088
+  ClientHeight = 121
+  ClientWidth = 493
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object BtStart: TCornerButton
+    Position.X = 8.000000000000000000
+    Position.Y = 8.000000000000000000
+    Sides = [Top, Left, Bottom, Right]
+    Size.Width = 81.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    Text = #1047#1072#1087#1091#1089#1090#1080#1090#1100
+    XRadius = 3.000000000000000000
+    YRadius = 3.000000000000000000
+    OnClick = BtStartClick
+  end
+  object Edit1: TEdit
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 1
+    Text = 'NiceHashMiner'
+    Position.X = 96.000000000000000000
+    Position.Y = 8.000000000000000000
+    Size.Width = 289.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object BtStop: TCornerButton
+    Position.X = 392.000000000000000000
+    Position.Y = 8.000000000000000000
+    Sides = [Top, Left, Bottom, Right]
+    Size.Width = 81.000000000000000000
+    Size.Height = 22.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 2
+    Text = #1047#1072#1074#1077#1088#1096#1080#1090#1100
+    XRadius = 3.000000000000000000
+    YRadius = 3.000000000000000000
+    OnClick = BtStopClick
+  end
+  object Switch1: TSwitch
+    IsChecked = False
+    Position.X = 128.000000000000000000
+    Position.Y = 48.000000000000000000
+    TabOrder = 3
+    OnSwitch = Switch1Switch
+  end
+  object Label1: TLabel
+    Position.X = 8.000000000000000000
+    Position.Y = 48.000000000000000000
+    Size.Width = 120.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+    StyleLookup = 'listboxitemlabel'
+    Text = #1040#1074#1090#1086#1087#1077#1088#1077#1079#1072#1087#1091#1089#1082
+    TabOrder = 4
+  end
+  object NumberBox1: TNumberBox
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 5
+    Cursor = crIBeam
+    Min = 1.000000000000000000
+    Max = 1440.000000000000000000
+    Value = 60.000000000000000000
+    Position.X = 376.000000000000000000
+    Position.Y = 48.000000000000000000
+  end
+  object NumberBox2: TNumberBox
+    Touch.InteractiveGestures = [LongTap, DoubleTap]
+    TabOrder = 6
+    Cursor = crIBeam
+    Min = 1.000000000000000000
+    Max = 1440.000000000000000000
+    Value = 1.000000000000000000
+    Position.X = 376.000000000000000000
+    Position.Y = 80.000000000000000000
+  end
+  object Label2: TLabel
+    Position.X = 256.000000000000000000
+    Position.Y = 48.000000000000000000
+    Size.Width = 112.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    StyleLookup = 'listboxitemlabel'
+    Text = #1056#1072#1073#1086#1090#1072#1090#1100' '#1084#1080#1085#1091#1090':'
+    TabOrder = 7
+  end
+  object Label3: TLabel
+    Position.X = 232.000000000000000000
+    Position.Y = 80.000000000000000000
+    Size.Width = 137.000000000000000000
+    Size.Height = 17.000000000000000000
+    Size.PlatformDefault = False
+    StyleLookup = 'listboxitemlabel'
+    Text = #1055#1088#1086#1089#1090#1072#1080#1074#1072#1090#1100' '#1084#1080#1085#1091#1090':'
+    TabOrder = 8
+  end
+  object CornerButton1: TCornerButton
+    Position.X = 8.000000000000000000
+    Position.Y = 88.000000000000000000
+    Sides = [Top, Left, Bottom, Right]
+    TabOrder = 10
+    Text = #1048#1085#1092#1086
+    XRadius = 3.000000000000000000
+    YRadius = 3.000000000000000000
+    OnClick = CornerButton1Click
+  end
+  object Memo1: TMemo
+    Touch.InteractiveGestures = [Pan, LongTap, DoubleTap]
+    DataDetectorTypes = []
+    Lines.Strings = (
+      #1055#1088#1086#1075#1088#1072#1084#1084#1072' '#1089#1086#1079#1076#1072#1085#1072' '#1089#1087#1077#1094#1080#1072#1083#1100#1085#1086' '#1076#1083#1103' NiceHash Miner'
+      #1045#1083#1080' '#1090#1077#1073#1077' '#1087#1086#1083#1077#1079#1085#1072' '#1101#1090#1072' '#1087#1088#1086#1075#1088#1072#1084#1084#1072' '#1073#1091#1076#1091' '#1089#1095#1072#1089#1090#1083#1080#1074' '#1084#1080#1082#1088#1086#1076#1086#1085#1072#1090#1091' '#1085#1072': '
+      '1FhDYMrr2xyofSNDvnmM9BHiqNf3YDPzod'
+      #1090#1072#1082' '#1078#1077' '#1084#1086#1078#1085#1086' '#1085#1072' '#1085#1077#1075#1086' '#1087#1086#1084#1072#1081#1085#1080#1090#1100' '#1085#1077#1084#1085#1086#1075#1086' )))')
+    StyledSettings = []
+    TextSettings.Font.Family = 'Palatino Linotype'
+    TextSettings.Font.Size = 14.000000000000000000
+    TextSettings.Font.StyleExt = {00070000000100000004000000}
+    TextSettings.FontColor = claDarkblue
+    Position.X = 8.000000000000000000
+    Position.Y = 128.000000000000000000
+    Size.Width = 473.000000000000000000
+    Size.Height = 81.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 12
+    Viewport.Width = 469.000000000000000000
+    Viewport.Height = 77.000000000000000000
+  end
+  object Timer1: TTimer
+    Enabled = False
+    Interval = 60000
+    OnTimer = Timer1Timer
+    Left = 216
+    Top = 40
+  end
+  object Timer2: TTimer
+    Enabled = False
+    Interval = 20
+    OnTimer = Timer2Timer
+    Left = 104
+    Top = 88
+  end
+end
